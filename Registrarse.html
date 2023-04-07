@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registración</title>
+	<link rel="stylesheet" type="text/css" href="mi pagina.css">
+</head>
+<body>
+	<h1> Formulario de registro</h1><br>
+
+	<!-- este form usa method GET -->
+	<form>
+		<span>Nombre:</span> <input type="text" name="Nombre"><br>
+		<span>Apellido:</span> <input type="text" name="Apellido"><br>
+		<span>Email:</span> <input type="email" required name="email"><br>
+		Fecha de nacimiento: <input type="date" name="fecha"><br>
+		Estado civil: <br>
+			<input type="radio" name="opciones de estado civil" value="soltero"> Soltero<br>
+			<input type="radio" name="opciones de estado civil" value="casado"> Casado<br>
+			<input type="radio" name="opciones de estado civil" value="otro"> Otro<br>
+		Origen de Ingresos: <br>
+		<input type="checkbox" name="sueldo"> Sueldo en dependencia <br>
+		<input type="checkbox" name="autonomo"> Autonomo <br>
+		<input type="checkbox" name="ahorros"> Ahorros <br>
+		<input type="checkbox" name="Donacion"> Donación <br>
+		Perfil del inversor:<br>
+		<select>
+			<option name="conserador">Conservador</option>
+			<option name="moderado">Moderado</option>
+			<option name="Agresivo">Agresivo</option>
+		</select>	<br>
+		Contraseña: <input type="password" minlength="8" name="pass">
+
+		<br><br><input type="submit" value="Registrarse!"> <input type="reset" value="Limpiar">	
+	</form>
+	</div><br>
+	<a href="index.html">Volver</a>
+</body>
+</html>
